@@ -32,7 +32,6 @@ private func getSortedPeopleByMoney(_ people: [People], with type: TypeSort) -> 
 }
 
 print(getSortedPeopleByMoney(persons, with: .money))
-print("//=====================================================================================================================================================")
 
 //Вторая функция выводит всех людей по убыванию используемого количества банков:
 
@@ -41,7 +40,6 @@ private func getSortedPeopleByUseBank(_ people: [People], with type: TypeSort) -
 }
 
 print(getSortedPeopleByUseBank(persons, with: .useBank))
-print("//=====================================================================================================================================================")
 
 //Третья функция выводит всех людей по убыванию используемого количества карт:
 
@@ -50,7 +48,6 @@ private func getSortedPeopleByUseCard(_ people: [People], with type: TypeSort) -
 }
 
 print(getSortedPeopleByUseCard(persons, with: .useCard))
-print("//=====================================================================================================================================================")
 
 struct Bank {
     var name: String
@@ -79,7 +76,6 @@ private func getSortedBankByMoney(_ bank: [Bank], with type: TypeSorted) -> [Ban
 }
 
 print(getSortedBankByMoney(banks, with: .money))
-print("//=====================================================================================================================================================")
 
 struct Card {
     var firstSection: Int
@@ -115,5 +111,3 @@ private func getSortedCardsByYear(_ card: [Card], with type: TypeSortCards) -> [
 }
 
 print(getSortedCardsByYear(cards, with: .year))
-
-
